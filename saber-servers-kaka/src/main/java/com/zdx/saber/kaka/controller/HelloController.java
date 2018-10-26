@@ -45,7 +45,7 @@ public class HelloController {
         for (int i = 0; i < instances.size(); i++) {
             logger.info("/hello,host:" + instances.get(i).getHost() + ",service_id:" + instances.get(i).getServiceId());
         }
-        return "Hello World";
+        return "Hello World haha";
     }
 
 
