@@ -50,8 +50,18 @@
 			<artifactId>json</artifactId>
 			<version>20160810</version>
 		</dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+		<!-- 支持发送邮件 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
 
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<plugins>
